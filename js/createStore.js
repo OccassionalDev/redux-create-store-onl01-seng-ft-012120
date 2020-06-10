@@ -1,5 +1,3 @@
-let store = createStore()
-
 function createStore() {
   let state;
   
@@ -33,6 +31,7 @@ function render() {
 };
 
 
+let store = createStore()
 
 dispatch({ type: '@@INIT' })
 let button = document.getElementById('button');
