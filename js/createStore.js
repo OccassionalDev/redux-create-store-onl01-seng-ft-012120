@@ -4,7 +4,7 @@ function() {
   function dispatch(action){
     state = reducer(state, action);
     render();
-  };
+  }
 }
 
 function reducer(state = { count: 0 }, action) {
